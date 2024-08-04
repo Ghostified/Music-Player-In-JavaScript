@@ -22,22 +22,20 @@
             <h1>Lil Uzi Vert</h1>
             <p>The Way Life Goes Ft. Nicki Minaj</p>
 
-            <audio controls>
+            <audio  id="song">
                 <source src="Media/Lil Uzi Vert - The Way Life Goes Remix (Feat. Nicki Minaj) [Official Music Video].mp3" type="audio/mp3" >
             </audio>
             <input type="range" value="0" id="progress">
 
             <div class="controls">
                 <div><i class="fa-solid fa-backward"></i></div>
-                <div><i class="fa-solid fa-play"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="controlIcon"></i></div>
                 <div><i class="fa-solid fa-forward"></i></div>      
             </div>
 
         </div>
     </div>
 
-
-
-    <script href="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
